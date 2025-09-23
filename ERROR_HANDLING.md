@@ -123,18 +123,6 @@ All errors are automatically formatted into consistent JSON responses:
 
 ## Middleware Integration
 
-### Error Handler Middleware
-
-```typescript
-import { errorHandler } from "@/middlewares";
-
-// The error handler automatically:
-// 1. Catches all thrown errors
-// 2. Formats BaseError instances properly
-// 3. Converts unknown errors to InternalServerError
-// 4. Provides appropriate logging in development
-```
-
 ### Global Error Handler
 
 ```typescript
